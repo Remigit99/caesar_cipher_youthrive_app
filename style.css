@@ -7,3 +7,15 @@ input{
     background-color: red;
     color: white;
 } */
+
+#caesar-cipher-app{
+   text-align: center;
+}
+
+#text_area_1{
+    resize: none;
+}
+
+.st-emotion-cache-kskxxl.e116k4er3{
+ max-width: 10rem;
+}
