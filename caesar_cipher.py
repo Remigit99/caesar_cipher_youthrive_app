@@ -22,7 +22,7 @@ def caesar_cipher(text, shift, mode='encrypt'):
     return result
 
 # Streamlit app
-st.title("Caesar Cipher Encryption App")
+st.title("Caesar Cipher App")
 
 # Input text
 text = st.text_area("Enter the text to be encrypted or decrypted", "")
