@@ -28,7 +28,7 @@ st.title("Caesar Cipher Encryption App")
 text = st.text_area("Enter the text to be encrypted or decrypted", "")
 
 # Shift value
-shift = st.number_input("Enter the shift value", min_value=1, max_value=25, value=3)
+shift = st.number_input("Enter the shift value", min_value=1, max_value=25, value="min")
 
 # Mode selection
 mode = st.radio("Select mode", ('Encrypt', 'Decrypt'))
