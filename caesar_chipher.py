@@ -1,5 +1,11 @@
 import streamlit as st
 
+
+#CSS(Cascading Style Sheet)
+with open("style.css") as styles:
+    st.markdown(f"<style> {styles.read()} </style>", unsafe_allow_html=True) 
+
+
 # Function to perform Caesar Cipher encryption and decryption
 def caesar_cipher(text, shift, mode='encrypt'):
     result = ""
@@ -39,5 +45,4 @@ if st.button("Submit"):
     else:
         st.write("Please enter text to be encrypted or decrypted.")
 
-# Footer
-st.write("Caesar Cipher encryption shifts each character by the specified shift value.")
+
